@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/chanhdai/public_html/
-    - /bin/cp . $DEPLOYPATH
-    - /bin/cp . $DEPLOYPATH
+    - /bin/cp -a ./ $DEPLOYPATH
